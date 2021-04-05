@@ -1,0 +1,101 @@
+:root {
+    --width: 11em;
+    --height: 2em;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, lavenderblush, aquamarine);
+    font-family: "Times New Roman", sans-serif;
+}
+
+button {
+    width: var(--width);
+    height: var(--height);
+}
+
+.image {
+    margin-right: 85%;
+    width: 150px;
+    height: 100px;
+}
+
+.label {
+    font-size: 20px;
+    margin-right: 85%;
+}
+
+select {
+    width: var(--width);
+    height: var(--height);
+    margin: 5px;
+}
+
+label {
+    display: inline-block;
+    width: var(--width);
+    margin: 5px;
+}
+
+input {
+    width: var(--width);
+    height: var(--height);
+}
+
+form {
+    margin: 0px;
+}
+
+div {
+    margin: 10px;
+}
+
+table {
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.form__horizontal {
+    display: inline-block;
+}
+
+.table {
+    justify-content: center;
+    border-collapse: collapse;
+    display: grid;
+}
+
+.tr {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.td_button {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.td_button:hover {
+    cursor: pointer;
+}
+
+.td {
+    font-size: 12px;
+    word-break: break-word;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0px;
+    display: table-cell;
+    width: 100px;
+}
